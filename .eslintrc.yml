@@ -1,0 +1,13 @@
+env:
+  jest: true
+
+extends:
+  - airbnb-base
+  - plugin:flowtype/recommended
+  - prettier
+  - prettier/flowtype
+
+parser: babel-eslint
+
+plugins:
+  - flowtype

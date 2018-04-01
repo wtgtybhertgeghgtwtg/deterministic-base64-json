@@ -1,0 +1,7 @@
+release:
+  verifyConditions:
+    - "@semantic-release/npm"
+    - "@semantic-release/git"
+  prepare:
+    - "@semantic-release/npm"
+    - "@semantic-release/git"
