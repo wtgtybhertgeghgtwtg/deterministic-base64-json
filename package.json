@@ -35,8 +35,7 @@
     "prettier": "1.11.1",
     "rimraf": "^2.6.2",
     "rollup": "^0.57.1",
-    "rollup-plugin-babel": "^4.0.0-beta.3",
-    "semantic-release": "^15.1.4"
+    "rollup-plugin-babel": "^4.0.0-beta.3"
   },
   "engines": {
     "node": ">=4"
@@ -60,8 +59,7 @@
     "clean": "rimraf coverage dist",
     "lint": "flow && eslint . && prettier --l \"{__tests__,src}/**/*.js\"",
     "test": "jest --config ./scripts/jest/config.source.js",
-    "test-dist": "jest --config ./scripts/jest/config.dist.js",
-    "semantic-release": "semantic-release"
+    "test-dist": "jest --config ./scripts/jest/config.dist.js"
   },
   "version": "0.0.0-development"
 }
