@@ -53,7 +53,7 @@
     "url": "https://github.com/wtgtybhertgeghgtwtg/deterministic-base64-json"
   },
   "scripts": {
-    "build": "yarn build:cjs && yarn build:es && echo \"// @flow\\nexport * from '../src';\" > dist/index.js.flow",
+    "build": "yarn build:cjs && yarn build:es && echo \"// @flow\\nexport * from '../src';\" > dist/index.cjs.js.flow",
     "build:cjs": "cross-env NODE_ENV=cjs rollup -c",
     "build:es": "cross-env NODE_ENV=es rollup -c",
     "clean": "rimraf coverage dist",
