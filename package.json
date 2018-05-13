@@ -5,8 +5,7 @@
   },
   "dependencies": {
     "js-base64": "^2.4.3",
-    "json-stable-stringify": "^1.0.1",
-    "parse-json": "^4.0.0"
+    "json-stable-stringify": "^1.0.1"
   },
   "description": "Deterministically convert an object to a Base64 string and back.",
   "devDependencies": {
