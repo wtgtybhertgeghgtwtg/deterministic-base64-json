@@ -4,8 +4,8 @@
     "name": "Matthew Fernando Garcia"
   },
   "dependencies": {
-    "js-base64": "^2.4.3",
-    "json-stable-stringify": "^1.0.1"
+    "fast-json-stable-stringify": "^2.0.0",
+    "js-base64": "^2.4.3"
   },
   "description": "Deterministically convert an object to a Base64 string and back.",
   "devDependencies": {
